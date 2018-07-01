@@ -1,13 +1,13 @@
 .right_side {
-    width: 70%;
+    width: 65%;
     background-color: #1c1c1c;
     float: right;
     color: white;
-    box-shadow: -3px 0px 0px 0px #ff9801;
+    -webkit-box-shadow: -2px -2px 21px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -2px 21px 0px rgba(0,0,0,0.75);
+    box-shadow: -2px -2px 21px 0px rgba(0,0,0,0.75);
     border-radius: 5px;
-  }
-
-  .navigation {
-    text-align: center;
-    border-bottom: 1px solid #ff9801;
+    margin-left: 30px;
+    margin-top: 15px;
+    padding-bottom: 15px;
   }
