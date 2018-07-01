@@ -1,15 +1,32 @@
 .contact_card {
     width: 100%;
-    padding-left: 30px;
-    padding-top: 10px;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    -webkit-box-shadow: inset 41px -79px 11px -68px rgba(0,0,0,1);
+    -moz-box-shadow: inset 41px -79px 11px -68px rgba(0,0,0,1);
+    box-shadow: inset 41px -79px 11px -68px rgba(0,0,0,1);
+    font-family: Lato,sans-serif;
+    border-radius: 5px;
 }
 
 .contact_card:hover {
-    background-color: rgb(26, 18, 54);
+    background-color: #333333;
 }
 
 .avatar {
     height: 80px;
     border-radius: 50%;
-    border: 3px solid #6bbaa7;
+    border: 3px solid #ff9801;
+}
+
+.avatar-wrapper {
+    padding-left: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact_info {
+    display: inline-block;
+    vertical-align: middle;
 }

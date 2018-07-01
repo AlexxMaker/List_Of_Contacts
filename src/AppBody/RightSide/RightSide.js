@@ -8,12 +8,12 @@ const rightSide = (props) => {
             <div className='navigation'>
                 <h2>OLOLOO PISH PISH!</h2>
             </div>
-            
-        <ContactCard />
-        <ContactCard />
-        <ContactCard />
-        <ContactCard />
-        <ContactCard />
+
+        <ContactCard name='Aziz' surname='Mrazish'/>
+        <ContactCard name='Filipp' surname='Kirkorov'/>
+        <ContactCard name='Arkadiy' surname='Ukupnik'/>
+        <ContactCard name='Gandalf' surname='Seriy'/>
+        <ContactCard name='Sasha' surname='Beliy'/>
         
         </div>
     );

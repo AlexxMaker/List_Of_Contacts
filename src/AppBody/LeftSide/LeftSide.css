@@ -1,18 +1,18 @@
 .left_side {
-    display: inline-block;
     width: 30%;
-    background-color: #0F0827;
+    background-color: #333333;
     text-align: center;
-    color: rgb(198, 220, 235);
+    color: white;
     -webkit-box-shadow: inset 0px -6px 17px -2px rgba(0,0,0,0.48);
     -moz-box-shadow: inset 0px -6px 17px -2px rgba(0,0,0,0.48);
     box-shadow: inset 0px -6px 17px -2px rgba(0,0,0,0.48);
     margin: 0 auto;
     float: left;
+    border-radius: 5px;
   }
 
   h2 {
-    font-family: 'Shrikhand', cursive;
+    font-family: Lato,sans-serif;
     margin: 0 auto;
     padding: 0;
   }
@@ -26,15 +26,15 @@
     height: 120px;
     border-radius: 50%;
     margin-top: 10px;
-    border: 3px solid #6bbaa7;
+    border: 3px solid #ff9801;
   }
 
   p {
     padding-left: 45px;
-    font-family: 'Shrikhand';
+    font-family: Lato,sans-serif;
     font-weight: 100;
   }
 
   .profile_h2 {
-    border-bottom: 1px solid #6bbaa7;
+    border-bottom: 1px solid #ff9801;
   }

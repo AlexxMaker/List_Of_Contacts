@@ -1,18 +1,27 @@
 .app_header {
     text-align: center;
-    background-color: #080416;
-    font-family: 'Shrikhand', cursive;
-    color: rgb(198, 220, 235);
+    background-color: #222222;
+    font-family: Lato,sans-serif;
+    color: white;
     font-size: 25px;
-    -webkit-box-shadow: inset 0px -6px 17px -2px rgba(0,0,0,0.48);
-    -moz-box-shadow: inset 0px -6px 17px -2px rgba(0,0,0,0.48);
-    box-shadow: inset 0px -6px 17px -2px rgba(0,0,0,0.48);
-    border-bottom: 2px solid #6bbaa7;
+    -webkit-box-shadow: inset -13px -61px 26px -39px rgba(0,0,0,1);
+    -moz-box-shadow: inset -13px -61px 26px -39px rgba(0,0,0,1);
+    box-shadow: inset -13px -61px 26px -39px rgba(0,0,0,1);
+    border-bottom: 2px solid #ff9801;
   }
 
   h1 {
     padding: 20px 30px;
-    border: 2px solid #6bbaa7;
+    border: 2px solid #ff9801;
     display: inline-block;
     border-radius: 80px;
+    -webkit-box-shadow: 3px 6px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 6px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 6px 11px 0px rgba(0,0,0,0.75);
   }
+
+  h1:hover {
+    -webkit-box-shadow: 3px 9px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 9px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 9px 11px 0px rgba(0,0,0,0.75);
+  } 

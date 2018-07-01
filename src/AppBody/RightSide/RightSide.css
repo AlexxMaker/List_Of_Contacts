@@ -1,13 +1,13 @@
 .right_side {
-    display: inline-block;
     width: 70%;
-    background-color: rgb(15, 9, 34);
+    background-color: #1c1c1c;
     float: right;
-    color: rgb(198, 220, 235);
-    box-shadow: -3px 0px 0px 0px #6bbaa7;
+    color: white;
+    box-shadow: -3px 0px 0px 0px #ff9801;
+    border-radius: 5px;
   }
 
   .navigation {
     text-align: center;
-    border-bottom: 1px solid #6bbaa7;
+    border-bottom: 1px solid #ff9801;
   }

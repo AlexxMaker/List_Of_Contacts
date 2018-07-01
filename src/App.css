@@ -1,11 +1,14 @@
 .App {
-  background-color: #060211;
   width: 100%;
+  font-family: Lato, sans-serif;
 }
 
-.App_body {
- 
+.container {
+  max-width: 1200px;
+  min-width: 946px;
+  margin: 0 auto;
 }
+
 
 
 
