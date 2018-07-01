@@ -1,0 +1,18 @@
+.app_header {
+    text-align: center;
+    background-color: #080416;
+    font-family: 'Shrikhand', cursive;
+    color: rgb(198, 220, 235);
+    font-size: 25px;
+    -webkit-box-shadow: inset 0px -6px 17px -2px rgba(0,0,0,0.48);
+    -moz-box-shadow: inset 0px -6px 17px -2px rgba(0,0,0,0.48);
+    box-shadow: inset 0px -6px 17px -2px rgba(0,0,0,0.48);
+    border-bottom: 2px solid #6bbaa7;
+  }
+
+  h1 {
+    padding: 20px 30px;
+    border: 2px solid #6bbaa7;
+    display: inline-block;
+    border-radius: 80px;
+  }

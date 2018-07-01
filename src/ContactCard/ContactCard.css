@@ -1,0 +1,15 @@
+.contact_card {
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.contact_card:hover {
+    background-color: rgb(26, 18, 54);
+}
+
+.avatar {
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #6bbaa7;
+}
