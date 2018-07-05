@@ -6,7 +6,7 @@ const contactCard = (props) => {
     return (
         <div className='contact_card' onClick={props.click}>
             <div className='avatar-wrapper'>   
-                <img className="avatar" src={anon_avatar} alt='Nothing here'/>
+                <img className="avatar" src={props.picture} alt={anon_avatar}/>
             </div>
 
             <div className='contact_info'>
