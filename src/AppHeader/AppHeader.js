@@ -4,7 +4,7 @@ import './AppHeader.css';
 const appHeader = (props) => {
     return (
         <div className="app_header">
-            <h1>LINEAGE &#64;</h1>
+            <h1>List of Contacts &#64;</h1>
         </div> 
     );
 }
