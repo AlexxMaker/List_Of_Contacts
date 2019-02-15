@@ -10,8 +10,8 @@ class App extends Component {
   state = {
     name: 'Alex',
     surname: 'Maker' ,
-    occupation: 'Web Developer',
-    company: 'Freelance',
+    occupation: 'Warehouse Manager',
+    company: 'MSF',
     email: 'Alexeus92@mail.ru',
     phone: '+38(093)364 48 22',
     picture: user_face
